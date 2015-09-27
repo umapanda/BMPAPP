@@ -1,0 +1,640 @@
+/*
+
+Credit: http://www.tooplate.com
+
+2043 Green Ray Template
+
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #a19f96;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-size: 14px;
+	line-height: 1.5em; 
+	background-color: #2a2a2a;
+	background-image: url(../images/tooplate_body.png);
+	background-repeat: repeat;
+}
+
+a, a:link, a:visited { 
+	color: #f0d360; 
+	text-decoration: underline; 
+}
+
+a:hover { 
+	text-decoration: none; 
+}
+
+p { 
+	margin: 0 0 15px 0; 
+	padding: 0; 
+}
+
+img { 
+	border: none; 
+}
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-family: Arial,Helvetica Neue,Helvetica,sans-serif; }
+h1 { font-size: 38px; font-weight: normal; margin: 0 0 20px 0; padding: 5px 0; }
+h2 { font-size: 30px; font-weight: normal; margin: 0 0 30px 0; font-weight: normal; }
+h3 { font-size: 16px; margin: 0 0 15px 0; padding: 0; padding: 0; font-weight: normal;  }
+h4 { font-size: 14px; margin: 0 0 5px 0; padding: 0; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.float_l { float: left; }
+.float_r { float: right; }
+
+.image_wrapper {
+	display: inline-block;
+	border: 1px solid #000; 
+	padding: 4px; 
+	background: #222; 
+	margin-bottom: 10px; 
+}
+
+.image_fl { 
+	float: left; 
+	margin: 3px 30px 0 0;
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 0 30px; 
+}
+
+blockquote { 
+	font-style: italic;
+	margin: 0 0 0 10px;
+}
+
+cite { 
+	font-weight: bold;
+	color:#333; 
+}
+
+cite span { 
+	color: #666; 
+}
+
+em { 
+	color: #cccac2; 
+}
+
+.tooplate_list { 
+	margin: 20px 0 20px 20px; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.tooplate_list li { 
+	background: transparent url(../images1/tooplate_list.png) no-repeat; 
+	margin:0 0 20px;
+	padding: 0 0 0 20px; 
+	line-height: 1em; 
+}
+
+.tooplate_list li a { 
+	color: #fff; 
+}
+
+.tooplate_list li a:hover { 
+	color: #ff4301; 
+}
+
+.btn_more a {
+	display: inline-block;
+	font-weight: bold;
+	color: #fff;
+	padding: 2px 15px 2px 0;
+	text-decoration: none;
+}
+
+.btn_more a:hover {
+	padding-right: 20px;
+	text-decoration: underline;
+}
+
+.col_400 { width: 400px; } 
+.col_300 { width: 300px; }
+
+#social_box {
+	display: block;
+	height: 48px;
+	padding: 0;
+	margin: 0;
+}
+
+#social_box li {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#social_box li a {
+	width: 48px;
+	height: 48px;
+	margin-right: 60px;
+}
+
+.service_list { 
+	margin: 40px 0 0 15px; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.service_list li { 
+	margin: 0; 
+	padding: 0; 
+}
+
+.service_list li a { 
+	font-size: 16px; 
+	display: block; 
+	height: 25px; 
+	margin-bottom: 20px; 
+	padding-left: 40px; 
+	text-decoration: none; 
+}
+
+.service_list li .service_one { 
+	background: url(../images1/onebit_08.png) center left no-repeat; 
+}
+
+.service_list li .service_two { 
+	background: url(../images1/onebit_11.png) center left no-repeat; 
+}
+
+.service_list li .service_three { 
+	background: url(../images1/onebit_17.png) center left no-repeat; 
+}
+
+.service_list li .service_four { 
+	background: url(../images1/onebit_21.png) center left no-repeat; 
+}
+
+.service_list li .service_five { 
+	background: url(../images1/onebit_12.png) center left no-repeat; 
+}
+
+#contact_form {  
+	padding: 0; 
+}
+
+#contact_form form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contact_form form .input_field { 
+	width: 300px; 
+	padding: 5px; 
+	background: #191919; 
+	border: 1px solid #3c3c3c; 
+	color: #fff;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form label { 
+	display: block; 
+	width: 100px; 
+	margin-right: 10px; 
+	font-size: 14px; 
+}
+
+#contact_form form textarea { 
+	width: 350px;  
+	height: 80px; 
+	padding: 5px; 
+	background: #191919; 
+	border: 1px solid #3c3c3c; 
+	color: #fff; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form .submit_btn {
+	margin: 5px 0px;
+	padding: 5px 20px;
+	background: #191919;
+	color: #aaa;
+	border: 1px solid #3c3c3c;
+	font-size: 13px;
+}
+
+/* gallery */
+
+#gallery_container { 
+	clear: both; 
+	margin-top: 30px; 
+	padding-right: 40px; 
+	width: 740px; 
+	height: 300px; 
+	overflow: auto; 
+} 
+
+#gallery_container .gallery_box {
+	clear: both;
+	display: block; 
+	padding: 0;
+	margin: 0 0 40px 0;
+}
+ 
+.gallery_box img {
+	float: left;
+	width: 280px;
+	height: 100px;
+	padding: 4px;
+	background: #1b2c35;
+	border: 1px solid #0b1418;
+	margin: 3px 30px 0 0;
+}
+
+.headerDiv{
+	background-color :#C50E12;
+	background: -webkit-linear-gradient(to bottom right, #C50E12, #3F0E60);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #C50E12), color-stop(100%, #3F0E60)); /* Safari 4+, Chrome 2+ */  
+    background: -ms-linear-gradient(to bottom right, #C50E12, #3F0E60);
+	background: -o-linear-gradient(to bottom right, #C50E12, #3F0E60);
+	background: -moz-linear-gradient(to bottom right, #C50E12, #3F0E60);
+	background: linear-gradient(#C50E12, #3F0E60);
+	width: 90%;
+	height: 180px;
+	text-align: center;
+	 border-radius: 25px;
+	 margin-left: 80px;
+}
+
+
+
+.facebook_button {
+    background: #627aac url(../images/facebook_small.png) left no-repeat;
+    border-top: 1px solid #29447e;
+    border-right: 1px solid #29447e;
+    border-bottom: 1px solid #1a356e;
+    border-left: none;
+    height: 26px;
+    padding-right: 7px;
+    padding-left: 29px;
+    font-weight: bold;
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    line-height: 22px;
+
+    cursor: pointer;
+
+}
+
+.smsnow_button {
+   background: #0D3A8F url("../images/rsz_sms1.jpg") no-repeat scroll left center;
+    border-color: #fffff #fffff #fffff -moz-use-text-color;
+    border-radius: 20px;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: white;
+    cursor: pointer;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 49px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+
+.callnow_button {
+    background: #0A54AB url("../images/rsz_call.jpg") no-repeat scroll left center;
+    border-color: #fffff #fffff #fffff -moz-use-text-color;
+    border-radius: 20px;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: white;
+    cursor: pointer;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 49px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+
+.call_button{
+	background: #4379DB url("../images/rsz_call1.jpg") no-repeat scroll left center;
+	border-color: #fffff #fffff #fffff -moz-use-text-color;
+    border-radius: 20px;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: white;
+    cursor: pointer;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 42px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-decoration: none;
+	
+}
+
+.back_button{
+	background: #1B6ACF url("../images/rsz_back1.png") no-repeat scroll left center;
+	border-color: #fffff #fffff #fffff -moz-use-text-color;
+    border-radius: 20px;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: white;
+    cursor: pointer;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-decoration: none;
+    margin-left:5px;
+	
+}
+
+
+.fbnow_button {
+   background: #485783 url("../images/facebook.png") no-repeat scroll left center;
+    border-color: #fffff #fffff #fffff -moz-use-text-color;
+    border-radius: 20px;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: white;
+    cursor: pointer;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 49px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+
+.fbback_button {
+    background: #627aac;
+    border-top: 1px solid #29447e;
+    border-right: 1px solid #29447e;
+    border-bottom: 1px solid #1a356e;
+    border-left: none;
+    height: 26px;
+    padding-right: 7px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    line-height: 22px;
+
+    cursor: pointer;
+
+
+}
+
+
+
+.emailnow_button {
+   background: #224DB2  url("../images/rsz_email.png") no-repeat scroll left center;
+    border-color: #FFFFFF #FFFFFF #FFFFFF -moz-use-text-color;
+    border-radius: 20px;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    color: white;
+    cursor: pointer;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 49px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+
+
+
+.firstPanel{
+	border-radius: 25px;
+	border : 1px solid gray;
+	min-height: 400px;
+	padding: 20px 10px 10px 10px;
+	
+}
+
+.secondPanel{
+	border-radius: 25px;
+	border : 1px solid gray;
+	min-height: 420px;
+	padding: 20px 10px 10px 10px;	
+}
+
+.mainPanel{
+	padding: 0 20px;
+	margin: 0 auto;
+	
+}
+
+.image_wrapper { display: inline-block; border: 1px solid #000; background: #2A2A2A; padding: 4px; margin-bottom: 10px; }
+.image_fl { float: left;}
+.caption{display: block;}
+
+div.item1 {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 120px;
+}
+
+.caption1 {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+
+
+
+/* coda-slider css */
+
+#slider {
+    position: relative;
+	width: 100%;
+}
+
+#tooplate_100_wrapper_01 { 
+	 
+}
+
+#tooplate_100_wrapper_02 {
+	width: 100%;
+	
+}
+
+#tooplate_wrapper {
+	width: 840px;
+	padding: 0 90px;
+	margin: 0 auto;
+	
+}
+
+#header {
+	width: 840px;
+	height: 140px;
+	text-align: center;
+	
+}
+
+#header h1 { 
+	margin: 0; 
+	padding: 30px 0 0 0; 
+	height: 60px; 
+	display: block; 
+	text-indent: - 10000px; 
+}
+
+#menu {
+	margin-top:20px; 
+	margin-left:65px;
+	height: 50px;
+	border-radius: 25px;
+    border: 1px solid #4D4C47;
+    background-color:#484848;
+    padding: 0px 20px 20px 30px;
+    width: 88%;
+    
+}
+.scrollButtons {
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+	width: 0;
+	height: 0;
+}
+
+.scrollButtons.left {
+    left: -50px;
+    display: none;
+}
+
+.scrollButtons.right {
+    right: -50px;
+}
+#content {
+	height: 440px;
+	padding: 35px 20px 0px 0px;
+}
+
+#footer {
+	width: 800px;
+	padding: 80px 80px 20px 80px;
+	color: #999;
+	margin: 0 auto;
+	background: url(../images1/tooplate_footer.png) top center no-repeat;
+	
+}
+
+#footer_left { 
+	float: left;
+	width: 300px;
+}
+
+#footer a {
+	color: #fff;
+}
+
+#social_box {
+	float: right;
+	width: 500px;
+	height: 85px;
+	padding: 0;
+	text-align: right;
+}
+
+#social_box a {
+	display: inline-block;
+	margin-left: 20px;
+	width: 60px; height: 60px;
+}
+
+.scroll {
+    height: 440px;
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    height: 390px;
+    padding: 30px 20px 20px;
+	overflow: hidden;
+}
+
+ul.navigation {
+	width: 900px;
+    list-style: none;
+    
+}
+
+ul.navigation li {
+    display: block;
+    padding: 0px 0 0 35px;
+    float: left;
+   
+	text-align: center;
+}
+
+ul.navigation a {
+	float: left;
+	display: block;
+	width: 120px;
+	height: 38px;
+	padding: 12px 0 0 0;
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+    text-decoration: none;
+	text-align: center;
+	background: url(../images1/tooplate_menu_bg.png) no-repeat top center;
+}
+
+ul.navigation a:hover, ul.navigation a.selected {
+	
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
