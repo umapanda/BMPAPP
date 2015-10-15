@@ -52,7 +52,7 @@ Green Ray Template is provided by www.tooplate.com
             </div>
        
         <div id="content">
-        <table width="100%" style="table-layout: fixed;overflow: hidden;">
+        <table width="100%" style="table-layout: fixed;overflow: hidden;background-color: #484848;border-radius:25px; ">
         	<tr>
         	<td width="65%" style="vertical-align: top;">
 	        	<div id="about" class="firstPanel">
